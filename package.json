@@ -6,10 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-
-    "dependencies": {
-      "lodash": "^4.17.0"
-    },
+  "dependencies": {
+    "lodash": "^4.17.0",
+    "minimist": "^1.2.5"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/llogan382/digging-into-node.git"

@@ -2,7 +2,12 @@
 
 "use strict";
 
-console.log(process.argv);
+var args = require("minimist")(process.argv.slice(2));
+
+console.log(args);
+
+// Don't print the file paths, as those are unnecessary. Use SLICE to hide those:
+console.log(process.argv.slice(2));
 
 
 // Always add helper  error messages
