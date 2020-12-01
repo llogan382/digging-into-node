@@ -1,0 +1,23 @@
+{
+  "name": "code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ex1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+
+    "dependencies": {
+      "lodash": "^4.17.0"
+    },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/llogan382/digging-into-node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/llogan382/digging-into-node/issues"
+  },
+  "homepage": "https://github.com/llogan382/digging-into-node#readme"
+}
