@@ -2,12 +2,16 @@
 
 "use strict";
 
-var args = require("minimist")(process.argv.slice(2));
+
+// Don't print the file paths, as those are unnecessary. Use SLICE to hide those:
+var args = require("minimist")(process.argv.slice(2), {
+    boolean: [ "help"],
+    string: ["file"]
+});
 
 console.log(args);
 
-// Don't print the file paths, as those are unnecessary. Use SLICE to hide those:
-console.log(process.argv.slice(2));
+
 
 
 // Always add helper  error messages
@@ -18,6 +22,5 @@ function printHelp(){
     console.log("")
     console.log("--help                     print this help")
     console.log("")
-
 
 }
